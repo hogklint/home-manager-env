@@ -68,6 +68,14 @@
     # EDITOR = "emacs";
   };
 
+  services.gpg-agent = {
+    enable = true;
+    defaultCacheTtl = 18000;
+    maxCacheTtl = 57600;
+    pinentryPackage = pkgs.pinentry-tty;
+    enableSshSupport = false;
+  };
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
