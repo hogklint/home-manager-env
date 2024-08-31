@@ -25,6 +25,7 @@
     pkgs.pass
     pkgs.fd
     pkgs.silver-searcher
+    pkgs.kitty
 
     # Text and voice client
     pkgs.discord
