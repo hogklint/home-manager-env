@@ -26,6 +26,7 @@
     pkgs.fd
     pkgs.silver-searcher
     pkgs.kitty
+    pkgs.wine64
 
     # Text and voice client
     pkgs.discord
