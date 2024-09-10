@@ -28,6 +28,9 @@
     pkgs.kitty
     pkgs.wine64
 
+    # Valve's Steam
+    pkgs.steam
+
     # Text and voice client
     pkgs.discord
 
@@ -44,6 +47,8 @@
   nixpkgs.config.allowUnfreePredicate = pkg:
     builtins.elem (pkgs.lib.getName pkg) [
       "discord"
+      "steam"
+      "steam-original"
     ];
 
 
