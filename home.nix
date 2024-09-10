@@ -26,7 +26,9 @@
     pkgs.fd
     pkgs.silver-searcher
     pkgs.kitty
+    pkgs.chezmoi
     pkgs.wine64
+    pkgs.redshift
 
     # Valve's Steam
     pkgs.steam
