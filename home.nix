@@ -30,6 +30,10 @@
     pkgs.wine64
     pkgs.redshift
 
+    # VirtualBox seems like a bad idea as it needs to load kernel
+    # modules. Can't find anyone with similar problems though.
+    # pkgs.virtualboxWithExtpack
+
     # Valve's Steam
     pkgs.steam
 
