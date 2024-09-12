@@ -34,8 +34,9 @@
     # modules. Can't find anyone with similar problems though.
     # pkgs.virtualboxWithExtpack
 
-    # Valve's Steam
-    pkgs.steam
+    # Valve's Steam. Doesn't work for whatever reason. Some wrapper thing
+    # that complains about not finding /etc/NIXOS, which makes sense since it's not nixos
+    # pkgs.steam
 
     # Text and voice client
     pkgs.discord
