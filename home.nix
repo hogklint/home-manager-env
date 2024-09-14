@@ -20,7 +20,6 @@
   home.packages = [
     pkgs.htop
     pkgs.neovim
-    pkgs.tmux
     pkgs.autojump
     pkgs.pass
     pkgs.fd
@@ -29,6 +28,10 @@
     pkgs.chezmoi
     pkgs.wine64
     pkgs.redshift
+
+    # tmux stuff
+    pkgs.tmux
+    pkgs.extract_url
 
     # VirtualBox seems like a bad idea as it needs to load kernel
     # modules. Can't find anyone with similar problems though.
