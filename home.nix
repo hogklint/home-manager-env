@@ -24,7 +24,6 @@
     pkgs.pass
     pkgs.fd
     pkgs.silver-searcher
-    pkgs.kitty
     pkgs.chezmoi
     pkgs.wine64
     pkgs.redshift
@@ -32,6 +31,9 @@
     # tmux stuff
     pkgs.tmux
     pkgs.extract_url
+
+    # OpenGL problems
+    # pkgs.kitty
 
     # VirtualBox seems like a bad idea as it needs to load kernel
     # modules. Can't find anyone with similar problems though.
