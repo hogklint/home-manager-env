@@ -33,6 +33,8 @@
 
     # dev
     pkgs.go
+    pkgs.golangci-lint-langserver
+    pkgs.gopls
 
     # tmux stuff
     pkgs.tmux
