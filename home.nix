@@ -27,6 +27,12 @@
     pkgs.chezmoi
     pkgs.wine64
     pkgs.redshift
+    pkgs.android-tools
+    pkgs.feishin
+    pkgs.flameshot
+
+    # dev
+    pkgs.go
 
     # tmux stuff
     pkgs.tmux
