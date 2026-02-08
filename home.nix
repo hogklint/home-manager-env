@@ -112,7 +112,7 @@
     enable = true;
     defaultCacheTtl = 2700;
     maxCacheTtl = 3600;
-    pinentryPackage = pkgs.pinentry-tty;
+    pinentry.package = pkgs.pinentry-tty;
     enableSshSupport = false;
   };
 
