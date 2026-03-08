@@ -35,6 +35,8 @@
     pkgs.go
     pkgs.golangci-lint-langserver
     pkgs.gopls
+    pkgs.kubectl
+    pkgs.talosctl
 
     # tmux stuff
     pkgs.tmux
