@@ -37,6 +37,7 @@
     pkgs.gopls
     pkgs.kubectl
     pkgs.talosctl
+    pkgs.kubernetes-helm
 
     # tmux stuff
     pkgs.tmux
