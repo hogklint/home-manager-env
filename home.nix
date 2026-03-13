@@ -28,7 +28,8 @@
     pkgs.wine64
     pkgs.redshift
     pkgs.android-tools
-    pkgs.feishin
+    # feishin depends on an EOL version of electron. Disabling
+    # pkgs.feishin
     pkgs.flameshot
 
     # dev
